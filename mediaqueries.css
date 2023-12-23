@@ -1,0 +1,27 @@
+@media screen and (max-width:1100px) {
+    #hamburger-nav{
+        display: flex;
+    }
+    #desktop-nav{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    #container_profile{
+        flex-direction: column;
+        margin-bottom: AUTO;
+        
+    }
+    .profilepic {
+        border-radius: 40%;
+    }
+    #text{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  
+ 
+    
+}

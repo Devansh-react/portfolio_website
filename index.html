@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/mediaqueries.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
+</head>
+-+
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">
+    <img src="./Frame-2.gif" alt="logo" class="mine_logo" onclick="location.href='./#about'">
+    </div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#Contact Me">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"><img src="./Frame-2.gif" alt="logo" class="mine_logo" onclick="location.href='./#about'"></div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icons" onclick="togglemenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="menu-links">
+        <li><a href="#about" onclick="">About</a></li>
+        <li><a href="#projects" onclick="togglemenu()">projects</a></li>
+        <li><a href="#experience" onclick="togglemenu()">experience</a></li>
+        <li><a href="#Contact Me" onclick="togglemenu()">Contact Me</a></li>
+
+      </div>
+    </div>
+
+  </nav>
+  <section id="container_profile">
+    <section id="profile">
+      <div class="pic_container" onclick="window.open('./resume2.O.pdf')">
+        <img src="/profile pic.webp" alt="devansh profile pic" class="profilepic">
+      </div>
+    </section>
+    <section id="text">
+
+      <h2 class="text_p1">Hello I'm</h2>
+      <h1 class="title"><span>Devansh Sharma </span></h1>
+      <p class="text_p2"> A UI/UX developer<br>Graphic designer
+        <br>  Front end developer
+      </p>
+      <div class="button_container">
+        <button class="button_color_1" onclick="window.open('./resume2.0.pdf')">Download CV</button>
+        <button class="button_color_2" onclick="location.href='./#Contact Me'">Contact Info</button>
+      </div>
+
+      <div id="section_container">
+        <img src="./icons8-linkedin-48.png" alt="my linkedin" class="icon" onclick="location.href=('./linkedin')">
+        <img src="./icons8-github-64.png" alt="my github'" class="icon" onclick="location.href=('./github')">
+        <img src="./icons8-twitterx.svg" alt="my twitter" class="icon" onclick="location.href=('./github')">
+      </div>
+
+    </section>
+  </section>
+  <section id="About">
+    <h3 class="about_text_p1">Wanna get to know More !</h3>
+    <h1 class="about_title">About ME </h1>
+    <div class="section_container">
+      <div class="pic_container">
+        <img src="./profile pic 2.webp" alt="my profile image " class="about-pic">
+      </div>
+      <div class="about_detail_container">
+        <div class="about_container">
+          <div class="detail_container">
+            <img src="./file.png" alt="skills & services" class="icons">
+            <h2>Skills Set</h2>
+            <p2>UI/UX graphic design <br> CSS, JS ,<br> Google ads</p2>
+
+          </div>
+          <div class="detail_container">
+            <img src="./medal-.png" alt="medal" class="icons">
+            <h2>Education & Qualification</h2>
+            <p2>Bachelors in chemical engineering <br> FROM :DR BR Ambedkar national institute of
+              <br> technology , Jalandhar
+            </p2>
+
+
+          </div>
+        </div>
+        <div class="text_container">
+          <p class="about_bio">
+            As a nimble second-year B.Tech student, I specialize in the realms of UI/UX design, graphic artistry, and web development. My skill set is a fusion of technical expertise and a flair for communication, culminating in user-friendly digital experiences.
+
+            I excel not only in crafting digital magic but also in conjuring words with eloquence, fueling business growth through effective digital marketing. My knack for astute decision-making elevates not only my projects but also yours. I am poised to make a profound impact in the world of design and development, blending expertise with creativity.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./down-arrow.png " alt="down arrow" class="icon_arrow" onclick="location.href='./#experience'">
+
+  </section>
+  <section id="projects">
+    <h3 class="about_text_p1">Some of my recent</h3>
+    <h1 class="about_title">PROJECTS</h1>
+    <div class="experience_container">
+      <div class="detail_container2">
+        <div class="article_container">
+          <img src="./MOVIE-TICKITS.webp" alt="project1" class="about-pic2">
+        </div>
+        <h2 class="project_title">Project:1</h2>
+        <div class="button_container">
+          <button class="project_btn" onclick="location.href='https://www.figma.com/'">
+            view project</button>
+          <button class="project_btn" onclick="location.href='https://www.github.com/'">
+            GitHub</button>
+        </div>
+      </div>
+      <div class="detail_container2">
+        <div class="article_container">
+          <img src="./Macbook-Air-Mockup-__-Clay_Space-Gray-_Gold-_Community_.webp" alt="project1" class="about-pic2">
+        </div>
+        <h2 class="project_title">Project:2</h2>
+        <div class="button_container">
+          <button class="project_btn" onclick="location.href='https://devanshalum.editorx.io/propotype-1'">
+            view project</button>
+          <button class="project_btn" onclick="location.href='https://www.github.com/'">
+            GitHub</button>
+        </div>
+      </div>
+      <div class="detail_container2">
+        <div class="article_container">
+          <img src="./website landing page.webp" alt="project1" class="about-pic2">
+        </div>
+        <h2 class="project_title">Project:3</h2>
+        <div class="button_container">
+          <button class="project_btn" onclick="location.href='https://devanshalum.editorx.io/propotype-1'">
+            view project</button>
+          <button class="project_btn" onclick="location.href='https://www.github.com/'">
+            GitHub</button>
+        </div>
+      </div>
+      <div class="detail_container2">
+        <div class="article_container">
+          <img src="./WEBSITE.webp" alt="project1" class="about-pic2">
+        </div>
+        <h2 class="project_title">Project:4</h2>
+        <div class="button_container">
+          <button class="project_btn" onclick="location.href='https://devanshalum.editorx.io/propotype-1'">
+            view project</button>
+          <button class="project_btn" onclick="location.href='https://www.github.com/'">
+            GitHub</button>
+        </div>
+      </div>
+      <div class="detail_container2">
+        <div class="article_container">
+          <img src="./UX _ UI Design Portfolio • Blocs App Mockup (Community).webp" alt="project1" class="about-pic2">
+        </div>
+        <h2 class="project_title">Project:5</h2>
+        <div class="button_container">
+          <button class="project_btn" onclick="location.href='https://devanshalum.editorx.io/propotype-1'">
+            view project</button>
+          <button class="project_btn" onclick="location.href='https://www.github.com/'">
+            GitHub</button>
+        </div>
+      </div>
+      <div class="detail_container2">
+        <div class="article_container">
+          <img src="./Neutral Minimalist New Website Launch Mockup Instagram Post.webpgit gain " alt="project1"
+            class="about-pic2">
+        </div>
+        <h2 class="project_title">Project:6</h2>
+        <div class="button_container">
+          <button class="project_btn" onclick="location.href='https://devanshalum.editorx.io/propotype-1'">
+            view project</button>
+          <button class="project_btn" onclick="location.href='https://www.github.com/'">
+            GitHub</button>
+        </div>
+      </div>
+
+    </div>
+    <section id="Contact">
+      <h3 class="about_text_p1">Your Project, My Passion. Let's Connect</h3>
+      <h1 class="about_title">CONTACT ME !</h1>
+      <div class="contact_container">
+        <div class="info_container">
+          <img src="./icons8-email-96.png" alt="my email" class="email_icon">
+          <p><a href="devanshs748@gmail.com">devanshs748@gmail.com</a></p>
+        </div>
+        <div class="info_container">
+          <img src="./icons8-phone.svg" alt="phone" class="email_icon">
+          <p><a href="https://wa.me/qr/M3N7WYRUKGNBF1">Chat with me </a></p>
+        </div>
+        <div class="info_container">
+          <img src="./icons8-linkedin.svg" alt="phone" class="email_icon">
+          <p><a
+              href="https://www.linkedin.com/in/devansh-sharma-82551b24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              Devansh sharma</a></p>
+        </div>
+      </div>
+    </section>
+    <footer2 id="footer2">
+      <nav id="desktop-nav2">
+        <div class="footer_nav">
+          <ul class="nav-links2">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#Contact Me">Contact Me</a></li>
+          </ul>
+        </div>
+  
+        
+      </nav>
+    </footer2>
+     
+   
+  
+     
+
+
+  </section>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
